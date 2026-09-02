@@ -24,3 +24,8 @@ nav{
     background-color:yellow;
     color:black;
 }
+.blogSkeleton{
+    margin-left:100px;
+    background-color:blue;
+    text-align:left;
+}
