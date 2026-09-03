@@ -31,7 +31,21 @@ nav{
 }
 table, th, td{
     border: 1px solid blue;
+    color:aquamarine;
 }
-th#firstTableColumn{
+/* Incomplete meaning the study point has not yet been obtained */
+td#incomplete{
+    color:red;
+}
+#firstTableColumn{
+    width:10%;
+}
+#secondTableColumn{
     width:50%;
+}
+#thirdTableColumn{
+    width:30%;
+}
+#fourthTableColumn{
+    width:10%;
 }
