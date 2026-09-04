@@ -43,19 +43,19 @@ table, th, td{
     color:aquamarine;
 }
 /* Incomplete meaning the study point has not yet been obtained */
-td#incomplete{
+td.incomplete{
     color:red;
 }
 /* Deze vier stijlen dienen om de pagina vol te maken met het tabel */
-#firstTableColumn{
+.firstTableColumn{
     width:10%;
 }
-#secondTableColumn{
+.secondTableColumn{
     width:50%;
 }
-#thirdTableColumn{
+.thirdTableColumn{
     width:30%;
 }
-#fourthTableColumn{
+.fourthTableColumn{
     width:10%;
 }
