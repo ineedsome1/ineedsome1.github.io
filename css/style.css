@@ -1,9 +1,12 @@
+/* Algemene stijlen voor de website */
 body{
     background-color: black;
     font-family:Georgia, 'Times New Roman', Times, serif;
     color:white;
     text-align:center;
+    list-style-position:inside;
 }
+/* Navigatie bar */
 #menu ul{
     list-style: none;
     margin: 0;
@@ -20,15 +23,21 @@ nav{
     background-color:green;
 
 }
+#navHover:hover{
+    background-color:lightgreen;
+}
+/* Stijl voor de index */
 .intro{
     background-color:yellow;
     color:black;
 }
+/* Blog stijl */
 .blogSkeleton{
     margin-left:100px;
     background-color:blue;
     text-align:left;
 }
+/* Stijl voor de dashboard */
 table, th, td{
     border: 1px solid blue;
     color:aquamarine;
@@ -37,6 +46,7 @@ table, th, td{
 td#incomplete{
     color:red;
 }
+/* Deze vier stijlen dienen om de pagina vol te maken met het tabel */
 #firstTableColumn{
     width:10%;
 }
