@@ -53,12 +53,11 @@ nav a:hover{
     background-color:rgb(75, 75, 66);
     
 }
-nav li:first-child{
-    margin-right:auto;
-}
 /* Stijl voor de index */
-.container{;
-
+.container{
+    display:flex;
+    gap:10em;
+    flex-grow: 2;
 
 }
 .card{
