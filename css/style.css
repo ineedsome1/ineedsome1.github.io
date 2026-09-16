@@ -20,6 +20,7 @@ nav{
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1);
     margin: 0px;
     padding: 0px;
+    
 }
 nav ul{
     list-style: none;
@@ -58,10 +59,12 @@ nav a:hover{
     display:flex;
     gap:10em;
     flex-grow: 2;
-
 }
 .card{
-    background-color:yellow;
+    box-shadow: 1px 1px 1px 1px black;
+    background-image:url("../images/ohthemisery.webp");
+    background-repeat: no-repeat;
+    background-size: 100%, auto;
 }
 /* Blog stijl */
 .blogSkeleton{
