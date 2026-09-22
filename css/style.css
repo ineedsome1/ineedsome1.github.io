@@ -19,8 +19,7 @@ nav{
     background-color:black;
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1);
     margin: 0px;
-    padding: 0px;
-    
+    padding-bottom: .1em;
 }
 nav ul{
     list-style: none;
@@ -55,21 +54,33 @@ nav a:hover{
     
 }
 /* Stijl voor de index */
-.container{
-    display:flex;
-    flex-direction: column;
-    gap:10em;
-    flex-grow: 2;
-    background-image:linear-gradient(black, grey);
+#welcome{
+    color:black;
+    border: 10px solid red;
 }
-.card{
+.container1{
+    display:flex;
+    border-color:yellow;
+    color:red;
+    padding: 10px 100px;
+    background-color:grey;
+}
+.container2{
+    display:flex;
+    background-image:linear-gradient(black, grey);
+    padding: 20px 50px;
+}
+.card1{
     font-size: 32px;
-    margin:50px 10px 50px 10px;;
-    padding: 30px 30px 30px 30px;
+    gap:10em;
+    flex-grow:1;
+    margin:50px 10px 50px 10px;
+    padding: 30px 30px 300px 30px;
     box-shadow: 1px 1px 1px 1px black;
     background-image:linear-gradient(white, pink);
     background-repeat: no-repeat;
-    background-size: 100%, auto;
+    justify-content:center;
+    max-width: 20%;
 }
 /* Blog stijl */
 .blogSkeleton{
