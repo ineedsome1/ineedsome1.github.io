@@ -82,6 +82,13 @@ nav a:hover{
     justify-content:center;
     max-width: 20%;
 }
+#iluvfeet{
+    padding: 50px 50px;
+    color:white;
+}
+#iluvfeet ul{
+    list-style: none;
+}
 /* Blog stijl */
 .blogSkeleton{
     margin-left:100px;
