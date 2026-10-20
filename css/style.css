@@ -8,13 +8,17 @@
     margin:0px;
     padding:0px;
 }
+
 /* Algemene stijlen voor de website */
+
 body{
     font-family:Georgia, 'Times New Roman', Times, serif;
     margin:0px;
     padding: 0px;
 }
+
 /* Navigatie bar */
+
 nav{
     background-color:black;
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1);
@@ -53,7 +57,9 @@ nav a:hover{
     background-color:rgb(75, 75, 66);
     
 }
+
 /* Stijl voor de index */
+
 #welcome{
     color:black;
     border: 10px solid red;
@@ -80,11 +86,12 @@ nav a:hover{
     background-image:linear-gradient(white, pink);
     background-repeat: no-repeat;
     justify-content:center;
-    max-width: 20%;
 }
 #iluvfeet{
+    border: 1px solid black;
     padding: 50px 50px;
-    color:white;
+    height: 100%;
+    background-image:linear-gradient(grey, white);
 }
 #iluvfeet ul{
     list-style: none;
