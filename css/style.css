@@ -113,20 +113,26 @@ footer ul{
 /* Stijl voor de Who am I? pagina */
 
 .container3{
+    padding: 20px 50px;
     text-align:center;
 }
 ol#petRanking{
-    display:inline-block;
+    display:flex;
+    justify-content:space-around;
     font-size: 24px;
     color: black;
 }
 #petRanking li{
-    padding-top: 50px;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-image:linear-gradient(cyan, lightblue);
+    padding: 50px;
     text-align:center;
 }
 ol img{
-    width:250px;
-    height:250px;
+    border: 1px solid black;
+    width: 300px;
+    height: 300px;
 }
 
 /* Blog stijl */
