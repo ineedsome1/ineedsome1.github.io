@@ -17,6 +17,9 @@ body{
     padding: 0px;
     background-image: url("/images/temporarybackgroundindex.png");
 }
+#currentPage{
+    background-color:grey;
+}
 
 /* Navigatie bar voor alle pagina's */
 
@@ -104,6 +107,25 @@ footer ul{
     background-image:linear-gradient(white, pink);
     background-repeat: no-repeat;
     justify-content:center;
+}
+
+/* Stijl voor de Who am I? pagina */
+
+.container3{
+    text-align:center;
+}
+ol#petRanking{
+    display:inline-block;
+    font-size: 24px;
+    color: black;
+}
+#petRanking li{
+    padding-top: 50px;
+    text-align:center;
+}
+ol img{
+    width:250px;
+    height:250px;
 }
 
 /* Blog stijl */
