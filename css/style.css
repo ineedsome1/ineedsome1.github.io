@@ -112,6 +112,14 @@ footer ul{
 
 /* Stijl voor de Who am I? pagina */
 
+.aboutMeContainer{
+    border: 1px solid white;
+    border-radius: 5px;
+    background-color: white;
+    text-align: center;
+    margin: 20px 250px;
+}
+
 .container3{
     padding: 20px 50px;
     text-align:center;
