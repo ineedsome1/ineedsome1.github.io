@@ -70,7 +70,7 @@ footer{
     border: 1px solid black;
     padding: 50px 50px;
     height: 100%;
-    background-image:linear-gradient(grey, white);
+    background-image:linear-gradient(lightblue, white);
     gap: 2em;
 }
 footer img{
@@ -105,7 +105,7 @@ footer ul{
     margin:50px 10px 50px 10px;
     padding: 30px 30px 300px 30px;
     box-shadow: 1px 1px 1px 1px black;
-    background-image:linear-gradient(white, pink);
+    background-image:linear-gradient(white, rgba(123, 176, 197, 0.404));
     background-repeat: no-repeat;
     justify-content:center;
 }
