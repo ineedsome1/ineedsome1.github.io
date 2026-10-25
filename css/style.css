@@ -180,11 +180,34 @@ ol img{
 }
 
 /*Stijl voor de blog pagina */
-
+.blogIntro{
+    font-size: 32px;
+    margin: 20px 25% 0px 25%;
+}
 .blogSkeleton{
-    margin-left:100px;
-    background-color:blue;
-    text-align:left;
+    margin: 100px 25% 0px 25%;
+}
+.blogList{
+    list-style: none;
+    font-size: 24px;
+    margin: 20px 0px 20px 0px;
+}
+.blogList li{
+    margin-top: 50px;
+}
+.blogList time{
+    font-size: 16px;
+}
+.blogList p{
+    font-size: 24px;
+    margin-top: 20px;
+}
+.blogList a{
+    text-decoration: none;
+    color: black;
+}
+.blogList a:hover{
+    text-decoration: underline;
 }
 
 /* Stijl voor de dashboard */
