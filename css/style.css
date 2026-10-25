@@ -168,6 +168,16 @@ ol img{
     background-color: rgb(230, 204, 140);
     text-wrap:wrap;
 }
+#myStoryIntro{
+    text-align:center;
+    font-size: 32px;
+    margin: 100px 0px 20px 0px;
+}
+.myStory{
+    text-align:center;
+    font-size: 24px;
+    margin: 0px 500px 20px 500px;
+}
 
 /*Stijl voor de blog pagina */
 
