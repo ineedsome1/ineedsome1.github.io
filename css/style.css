@@ -126,6 +126,7 @@ footer ul{
 }
 ol#petRanking{
     display:flex;
+    flex-wrap:wrap;
     justify-content:space-around;
     font-size: 24px;
     color: black;
@@ -143,7 +144,32 @@ ol img{
     height: 300px;
 }
 
-/* Blog stijl */
+/* Stijl voor de waarom IT pagina */
+
+#goldenCircleIntro{
+    text-align:center;
+    font-size: 32px;
+    padding: 20px 0px;
+    color: rgb(230, 204, 140);
+    text-shadow: 2px 2px 4px black;
+}
+.GoldenCircleContainer{
+    padding-left: 10vw;
+}
+.goldenCircle{
+    display: table-cell;
+    height: 30vh;
+    width: 25vw;
+    margin: 50px;
+    text-align: center;
+    vertical-align: middle;
+    border: 10px solid pink;
+    border-radius: 50%;
+    background-color: rgb(230, 204, 140);
+    text-wrap:wrap;
+}
+
+/*Stijl voor de blog pagina */
 
 .blogSkeleton{
     margin-left:100px;
