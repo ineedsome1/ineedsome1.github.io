@@ -60,6 +60,7 @@ nav li::after{
 }
 nav a:hover{
     background-color:rgb(75, 75, 66);
+    transition-duration: 0.2s;
 }
 
 /* Footer voor alle pagina's */
