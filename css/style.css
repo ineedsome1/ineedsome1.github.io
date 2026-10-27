@@ -83,6 +83,13 @@ footer ul{
     list-style: none;
     font-size:24px;
 }
+footer a{
+    text-decoration: none;
+    color: purple; /*rgb(39, 155, 228) Possible colour*/
+}
+footer a:hover{
+    text-decoration:underline;
+}
 
 /* Stijl voor de index */
 
