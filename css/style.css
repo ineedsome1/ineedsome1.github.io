@@ -168,6 +168,9 @@ ol img{
     background-color: rgb(230, 204, 140);
     text-wrap:wrap;
 }
+.goldenCircle p{
+    font-size:24px;
+}
 #myStoryIntro{
     text-align:center;
     font-size: 32px;
