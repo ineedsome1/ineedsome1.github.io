@@ -186,9 +186,13 @@ ol img{
     margin: 100px 0px 20px 0px;
 }
 .myStory{
+    background-color:white;
+    border: 1px solid white;
+    border-radius: 5px;
     text-align:center;
     font-size: 24px;
     margin: 0px 500px 20px 500px;
+    padding: 5px 10px 5px 10px;
 }
 
 /*Stijl voor de blog pagina */
