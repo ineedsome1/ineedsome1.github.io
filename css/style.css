@@ -204,7 +204,7 @@ ol img{
     font-size: 24px;
     margin: 100px 25% 0px 25%;
 }
-.blogSkeleton h1{
+.blogSkeleton h1, h2, h3{
     margin-top:25px;
 }
 .blogList{
